@@ -1,31 +1,38 @@
-## Processamento de Dados em Arquivos CSV do Censo Educacional Superior
+# 🎓 Dashboard – Censo da Educação Superior 2023
 
-Ao longo do tempo, é importante notar que a estrutura dos arquivos CSV pode ter mudado. Neste repositório, você encontrará um conjunto de scripts em Python que realizam diversas operações de processamento de dados em arquivos CSV relacionados ao censo educacional superior. O objetivo principal desses scripts é tratar e criar uma base de dados consolidada com informações desde 2009, abrangendo tanto os arquivos do `MICRODADOS_CADASTROS_CURSO` quanto do `MICRODADOS_ED_SUP_IES`.
+Este dashboard foi desenvolvido a partir dos microdados do Censo da Educação Superior de 2021, com o objetivo de **fornecer uma visão analítica sobre os cursos de graduação ofertados no Brasil**, suas instituições, perfis de alunos e distribuição territorial.
 
-### MICRODADOS_CADASTROS_CURSO
+---
 
-### Visão Geral do Código
+## Objetivo
 
-1. **Listagem e Exploração de Arquivos CSV**: Os scripts listam os arquivos CSV em um diretório específico e exploram as colunas de cada arquivo para entender a estrutura dos dados.
+O principal propósito deste painel é **explorar e visualizar de forma intuitiva e interativa os dados educacionais**, permitindo:
 
-2. **Contagem de Colunas e Linhas**: Os scripts contam o número de colunas e linhas em cada arquivo CSV, fornecendo informações sobre a dimensão dos dados.
+- Analisar o número de **ingressantes, matriculados e concluintes** por curso, instituição e estado;
+- Avaliar a **oferta de vagas** e o volume de **inscrições**;
+- Comparar o desempenho entre instituições **públicas e privadas**, por categoria administrativa e localização;
+- Destacar **áreas temáticas** como Engenharia, Saúde, Licenciaturas, entre outras;
+- Identificar **tendências regionais** e **perfil das IES** por campus e município;
+- Apoiar **tomadores de decisão, gestores educacionais e pesquisadores** com indicadores claros e confiáveis.
 
-3. **Identificação de Diferenças nas Colunas**: Comparamos as colunas de diferentes arquivos CSV para identificar discrepâncias na estrutura dos dados, garantindo consistência nos dados ao longo do tempo.
+> **Observação**:  
+> Todos os cruzamentos e cálculos deste projeto são realizados **diretamente no Power BI**, por meio de medidas DAX e modelagem de dados. **Não há uso de queries SQL** para transformações ou junções.
 
-4. **Fusão de Dados**: Aqui os dados dos arquivos CSV desde 2009 são combinados em um único DataFrame para futuras análises.
+---
 
-### MICRODADOS_ED_SUP_IES
+## Fonte dos Dados
 
-### Visão Geral do Código
+- **Microdados do Censo da Educação Superior 2023** – INEP/MEC  
+  Disponível para download no portal oficial do INEP/MEC:  
+  https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-da-educacao-superior
 
-1. **Exploração dos Dados**: Os scripts exploram os arquivos CSV do `MICRODADOS_ED_SUP_IES`, listando os arquivos e extraindo informações sobre as colunas de cada arquivo.
+---
 
-2. **Contagem de Colunas**: Contamos o número de colunas em cada arquivo CSV, fornecendo informações sobre a dimensão dos dados.
+## 🔍 O que você vai encontrar no dashboard
 
-3. **Identificação de Diferenças nas Colunas**: Os scripts comparam as colunas de diferentes arquivos CSV para identificar discrepâncias na estrutura dos dados ao longo do tempo.
+- Visão geral da rede pública e privada
+- Distribuição por modalidade (presencial vs EAD)
+- Destaque para áreas como Engenharia
+- Análises por estado, município e instituição
+- Classificação de cursos e instituições com filtros interativos
 
-4. **Fusão de Dados**: Aqui os dados dos arquivos CSV desde 2009 são combinados em um único DataFrame para futuras análises.
-
-### Contribuições
-
-Contribuições são bem-vindas! Se você tiver ideias de como melhorar ou estender esses scripts, sinta-se à vontade para abrir um pull request ou criar uma issue neste repositório.
