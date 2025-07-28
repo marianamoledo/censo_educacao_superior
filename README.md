@@ -44,4 +44,32 @@ O principal propósito deste painel é **explorar e visualizar de forma intuitiv
 - **Microdados do Censo da Educação Superior 2023** – INEP/MEC  
   Disponível para download no portal oficial do INEP/MEC:  
   https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-da-educacao-superior
+  
+---
+
+### Cruzamentos realizados na consulta `MICRODADOS_CADASTRO_CURSOS_2023`
+
+#### 1. Com a tabela `CLASS_CURSOS`
+- **Chave de junção:** `NOME DO CURSO` (convertido para maiúsculas)
+- **Objetivo:** Classificar os cursos conforme áreas gerais, específicas e detalhadas, adicionando uma coluna `CLASS`.
+- **Transformação aplicada:** Após a normalização do nome do curso (`Text.Upper`), foi feito um `Merge` com a tabela `CLASS_CURSOS` para adicionar as colunas de classificação.
+
+#### 2. Com a tabela `DE/PARA CAMPUS`
+- **Chave de junção:** coluna criada `IES/MUNICIPIO/CURSO`, que concatena `NOME IES`, `MUNICIPIO` e `NOME DO CURSO`.
+- **Objetivo:** Traduzir ou agrupar variações nos nomes dos campi para fins de padronização.
+- **Transformação aplicada:** Foi feita a junção (`Merge`) com a tabela `DE/PARA CAMPUS`, adicionando a coluna `CAMPUS`.
+
+#### 3. Com a tabela `Campus Concatenado`
+- **Chave de junção:** coluna `IES/MUNICIPIO`, que concatena `NOME IES` e `MUNICIPIO`.
+- **Objetivo:** Associar cada entrada com a versão padronizada do nome do campus do município.
+- **Transformação aplicada:** Novo `Merge` com a tabela `Campus Concatenado`, adicionando a coluna `Campus do Município`.
+
+#### Resumo das colunas adicionadas via cruzamento:
+
+| Fonte                  | Colunas adicionadas                                                 | Observação                                             |
+|------------------------|---------------------------------------------------------------------|--------------------------------------------------------|
+| `CLASS_CURSOS`         | `AREA_GERAL`, `AREA_ESPECIFICA`, `AREA_DETALHADA`, `CLASS`         | Base usada para categorizar os cursos.                 |
+| `DE/PARA CAMPUS`       | `CAMPUS`                                                            | Alinha variações de campus por curso e município.      |
+| `Campus Concatenado`   | `Campus do Município`                                               | Padroniza a descrição do campus com base na IES e local. |
+---
 
