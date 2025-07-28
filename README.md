@@ -34,7 +34,8 @@ O principal propósito deste painel é **explorar e visualizar de forma intuitiv
 
 - 🔗 [Clique aqui para visualizar o dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiYTVhYjU0ZTktMjFkZC00OTkwLWE3N2MtMjNmZWE5YTEwMjg1IiwidCI6IjI4MTgxNWViLWUwYjgtNGY2Yi1iMmRjLTBiY2U1ODQwMDI5NiJ9)
 
-![image](https://github.com/marianamoledo/censo_educacao_superior/blob/main/print_dash_censo_educacao.png?raw=true)
+[![Dashboard do Censo da Educação Superior](https://github.com/marianamoledo/censo_educacao_superior/blob/main/print_dash_censo_educacao.png?raw=true)](https://app.powerbi.com/view?r=eyJrIjoiYjFhMDBkNWItODAyMi00OGE5LTg4MzItNjlhYWIyZGM2ZjM5IiwidCI6IjI4MTgxNWViLWUwYjgtNGY2Yi1iMmRjLTBiY2U1ODQwMDI5NiJ9)
+
 
 ---
 
