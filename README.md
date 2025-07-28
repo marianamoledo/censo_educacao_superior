@@ -20,11 +20,12 @@ O principal propósito deste painel é **explorar e visualizar de forma intuitiv
 
 ---
 
-## Fonte dos Dados
+## 📊 Acesse o Dashboard
 
-- **Microdados do Censo da Educação Superior 2023** – INEP/MEC  
-  Disponível para download no portal oficial do INEP/MEC:  
-  https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-da-educacao-superior
+![Dashboard do Censo da Educação Superior](dash-censo-educacao.png)
+
+- 🔗 [Clique aqui para visualizar o dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiYTVhYjU0ZTktMjFkZC00OTkwLWE3N2MtMjNmZWE5YTEwMjg1IiwidCI6IjI4MTgxNWViLWUwYjgtNGY2Yi1iMmRjLTBiY2U1ODQwMDI5NiJ9)
+
 
 ---
 
@@ -35,4 +36,12 @@ O principal propósito deste painel é **explorar e visualizar de forma intuitiv
 - Destaque para áreas como Engenharia
 - Análises por estado, município e instituição
 - Classificação de cursos e instituições com filtros interativos
+
+  ---
+
+## Fonte dos Dados
+
+- **Microdados do Censo da Educação Superior 2023** – INEP/MEC  
+  Disponível para download no portal oficial do INEP/MEC:  
+  https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-da-educacao-superior
 
