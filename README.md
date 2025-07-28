@@ -22,7 +22,7 @@ O principal propósito deste painel é **explorar e visualizar de forma intuitiv
 
 ## 📊 Acesse o Dashboard
 
-![Dashboard do Censo da Educação Superior](dash-censo-educacao.png)
+![Dashboard do Censo](https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/dash-censo-educacao.png)
 
 - 🔗 [Clique aqui para visualizar o dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiYTVhYjU0ZTktMjFkZC00OTkwLWE3N2MtMjNmZWE5YTEwMjg1IiwidCI6IjI4MTgxNWViLWUwYjgtNGY2Yi1iMmRjLTBiY2U1ODQwMDI5NiJ9)
 
