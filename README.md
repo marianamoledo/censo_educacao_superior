@@ -1,6 +1,6 @@
 # 🎓 Dashboard – Censo da Educação Superior 2023
 
-Este dashboard foi desenvolvido a partir dos microdados do Censo da Educação Superior de 2021, com o objetivo de **fornecer uma visão analítica sobre os cursos de graduação ofertados no Brasil**, suas instituições, perfis de alunos e distribuição territorial.
+Este dashboard foi desenvolvido a partir dos microdados do Censo da Educação Superior de 2023, com o objetivo de **fornecer uma visão analítica sobre os cursos de graduação ofertados no Brasil**, suas instituições, perfis de alunos e distribuição territorial.
 
 ---
 
@@ -20,15 +20,6 @@ O principal propósito deste painel é **explorar e visualizar de forma intuitiv
 
 ---
 
-## 📊 Acesse o Dashboard
-
-![Dashboard do Censo da Educação Superior](dash-censo-educacao.png)
-
-- 🔗 [Clique aqui para visualizar o dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiYTVhYjU0ZTktMjFkZC00OTkwLWE3N2MtMjNmZWE5YTEwMjg1IiwidCI6IjI4MTgxNWViLWUwYjgtNGY2Yi1iMmRjLTBiY2U1ODQwMDI5NiJ9)
-
-
----
-
 ## 🔍 O que você vai encontrar no dashboard
 
 - Visão geral da rede pública e privada
@@ -37,7 +28,15 @@ O principal propósito deste painel é **explorar e visualizar de forma intuitiv
 - Análises por estado, município e instituição
 - Classificação de cursos e instituições com filtros interativos
 
-  ---
+---
+
+## 📊 Acesse o Dashboard
+
+- 🔗 [Clique aqui para visualizar o dashboard no Power BI](https://app.powerbi.com/view?r=eyJrIjoiYTVhYjU0ZTktMjFkZC00OTkwLWE3N2MtMjNmZWE5YTEwMjg1IiwidCI6IjI4MTgxNWViLWUwYjgtNGY2Yi1iMmRjLTBiY2U1ODQwMDI5NiJ9)
+
+![image](https://github.com/marianamoledo/censo_educacao_superior/blob/main/print_dash_censo_educacao.png?raw=true)
+
+---
 
 ## Fonte dos Dados
 
